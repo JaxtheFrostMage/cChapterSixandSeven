@@ -33,17 +33,14 @@ int main()
 				cout << "Lift Off" << endl;
 		}*/
 
-	for (string o = "o"; o != "             o" ; o = " " + o)
-	{
+	for (string o = "o"; o != "             o" ; o = " " + o){
 		cout << o << endl;
 		}
 
-	for (int v = 0; v <= 1000; v++)
-	{
+	for (int v = 0; v <= 1000; v++){
 		if (v % 2 == 0 && v % 3 == 0 && v <= 12)
 			cout << v << endl;
 	}
-
 
 	system("pause");
 	return 0;
