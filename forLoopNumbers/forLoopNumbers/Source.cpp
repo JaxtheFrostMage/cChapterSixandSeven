@@ -14,17 +14,16 @@ using namespace std::this_thread;
 
 int main(){
 
-	int number = 0;
+for(int c=0; c<=10; c++) {
 
-for (int count = 0; count == 10; count++) {
 	srand(time(NULL));
-	number = rand() % 100 + 1;
+	int number = rand() % 10 + 1;
 	
-
-	cout << count << endl;
+	cout << number << endl;
 
 	sleep_for(seconds(1));
 }
+
 system("pause");
 return 0;
 }
